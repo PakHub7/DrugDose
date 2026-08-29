@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Opzione 3: Rosso/Bordeaux (Definitiva) -->
+    <color name="primary">#B71C1C</color>
+    <color name="primary_dark">#7F0000</color>
+    <color name="primary_light">#FFCDD2</color>
+
+    <!-- Superfici -->
+    <color name="background">#FAFAFA</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="divider">#EF9A9A</color>
+
+    <!-- Testo -->
+    <color name="text_primary">#121212</color>
+    <color name="text_secondary">#424242</color>
+
+    <!-- Stato -->
+    <color name="error">#D32F2F</color>
+    <color name="error_surface">#FFEBEE</color>
+    <color name="warning">#E65100</color>
+    <color name="warning_surface">#FFF3E0</color>
+    <color name="success">#2E7D32</color>
+
+    <!-- Altri -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
