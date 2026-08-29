@@ -1,0 +1,154 @@
+{
+  "farmaci": [
+    {
+      "id": "ivermectina_scabbia",
+      "nome": "Ivermectina",
+      "indicazione": "Scabbia",
+      "tipo_formula": "per_kg",
+      "dose_unitaria": 200.0,
+      "unita_misura": "µg",
+      "unita_frequenza": "dose_singola",
+      "dose_massima": 12.0,
+      "peso_minimo_kg": 15.0,
+      "eta_minima_anni": 5,
+      "n_somministrazioni": 1,
+      "compressa_mg": 3.0,
+      "alert": [
+        "Assumere a stomaco vuoto",
+        "Ripetere dopo 8-15 giorni in caso di scabbia norvegese",
+        "Evitare in gravidanza e allattamento"
+      ],
+      "controindicazioni": [
+        "Peso < 15 kg",
+        "Età < 5 anni",
+        "Gravidanza",
+        "Allattamento"
+      ],
+      "fonte": "WHO Patient Information Leaflet; BNF/NICE"
+    },
+    {
+      "id": "aciclovir_hz",
+      "nome": "Aciclovir",
+      "indicazione": "Herpes Zoster (adulti immunocompetenti)",
+      "tipo_formula": "fissa",
+      "dose_unitaria": 800.0,
+      "unita_misura": "mg",
+      "unita_frequenza": "giorno",
+      "n_somministrazioni": 5,
+      "compressa_mg": 800.0,
+      "alert": [
+        "Iniziare entro 72 ore dalla comparsa delle lesioni",
+        "Idratazione adeguata durante la terapia",
+        "Ridurre la dose in caso di insufficienza renale"
+      ],
+      "controindicazioni": [
+        "Ipersensibilità ad aciclovir o valaciclovir",
+        "Insufficienza renale grave (adattare dose)"
+      ],
+      "fonte": "AIFA – RCP Aciclovir 800 mg; BNF"
+    },
+    {
+      "id": "fluconazolo_tinea",
+      "nome": "Fluconazolo",
+      "indicazione": "Tinea Corporis / Tinea Pedis",
+      "tipo_formula": "per_kg",
+      "dose_unitaria": 6.0,
+      "unita_misura": "mg",
+      "unita_frequenza": "settimana",
+      "dose_massima": 400.0,
+      "eta_minima_anni": 1,
+      "n_somministrazioni": 1,
+      "compressa_mg": 150.0,
+      "alert": [
+        "Dose settimanale per 2-4 settimane nella tinea pedis",
+        "Monitorare funzionalità epatica in trattamenti prolungati",
+        "Interazioni con warfarin, fenitoina, ciclosporina"
+      ],
+      "controindicazioni": [
+        "Ipersensibilità agli azoli",
+        "Co-somministrazione con terfenadina o cisapride",
+        "Gravidanza (solo se strettamente necessario)"
+      ],
+      "fonte": "AIFA – RCP Fluconazolo; BNF/NICE"
+    },
+    {
+      "id": "metotrexato_psoriasi",
+      "nome": "Metotrexato",
+      "indicazione": "Psoriasi a placche moderata-grave",
+      "tipo_formula": "per_m2",
+      "dose_unitaria": 15.0,
+      "unita_misura": "mg",
+      "unita_frequenza": "settimana",
+      "dose_minima": 7.5,
+      "dose_massima": 25.0,
+      "eta_minima_anni": 18,
+      "n_somministrazioni": 1,
+      "alert": [
+        "Somministrazione SETTIMANALE (non giornaliera) — rischio fatale se quotidiana",
+        "Supplementare con acido folico 5 mg/settimana (giorno diverso)",
+        "Monitorare emocromo ed enzimi epatici ogni 4-8 settimane",
+        "Evitare FANS e antibiotici che competono con l'escrezione renale"
+      ],
+      "controindicazioni": [
+        "Gravidanza e allattamento",
+        "Insufficienza epatica o renale grave",
+        "Immunodeficienza",
+        "Anemia aplastica",
+        "Età < 18 anni per questa indicazione"
+      ],
+      "fonte": "AIFA – RCP Metotrexato; BNF/NICE; Linee Guida SIDeMaST"
+    },
+    {
+      "id": "doxiciclina_acne",
+      "nome": "Doxiciclina",
+      "indicazione": "Acne vulgaris infiammatoria moderata",
+      "tipo_formula": "fasce",
+      "dose_unitaria": 0.0,
+      "unita_misura": "mg",
+      "unita_frequenza": "giorno",
+      "eta_minima_anni": 12,
+      "n_somministrazioni": 1,
+      "compressa_mg": 100.0,
+      "fasce_peso": [
+        { "peso_min_kg": 25.0, "peso_max_kg": 45.0, "dose_mg": 50.0 },
+        { "peso_min_kg": 45.0, "peso_max_kg": 999.0, "dose_mg": 100.0 }
+      ],
+      "alert": [
+        "Assumere con abbondante acqua, evitare di coricarsi subito dopo",
+        "Evitare esposizione solare (fotosensibilizzazione)",
+        "Non assumere con latte, antiacidi, ferro o calcio (riduzione assorbimento)",
+        "Durata tipica: 8-12 settimane"
+      ],
+      "controindicazioni": [
+        "Età < 12 anni (danni allo smalto dentale e crescita ossea)",
+        "Gravidanza e allattamento",
+        "Ipersensibilità alle tetracicline"
+      ],
+      "fonte": "AIFA – RCP Doxiciclina; BNF; Linee Guida Acne EDF 2022"
+    },
+    {
+      "id": "betametasone_dermatite",
+      "nome": "Betametasone valerato",
+      "indicazione": "Dermatite atopica moderata-grave (adulti)",
+      "tipo_formula": "fissa",
+      "dose_unitaria": 1.0,
+      "unita_misura": "applicazione",
+      "unita_frequenza": "giorno",
+      "eta_minima_anni": 18,
+      "n_somministrazioni": 2,
+      "alert": [
+        "Uso topico: applicare strato sottile sull'area colpita",
+        "Non applicare su viso, pliche e zone genitali",
+        "Non usare in occlusione senza indicazione medica",
+        "Limitare l'uso a 2 settimane consecutive"
+      ],
+      "controindicazioni": [
+        "Infezioni batteriche, virali o fungine non trattate",
+        "Rosacea, acne, dermatite periorale",
+        "Gravidanza (primo trimestre, evitare aree estese)",
+        "Bambini < 18 anni per betametasone 0.1%"
+      ],
+      "fonte": "AIFA – RCP Betametasone valerato 0.1%; BNF; EDF Guidelines"
+    }
+  ]
+}
