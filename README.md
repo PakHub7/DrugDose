@@ -74,3 +74,15 @@ Il progetto include test automatizzati in `DoseCalculatorTest.kt` per verificare
 
 ## ⚕ Disclaimer
 I dosaggi sono inseriti a scopo didattico da fonti pubbliche verificabili (RCP AIFA, BNF/NICE, WHO). Non sostituisce il giudizio clinico del medico né il foglio illustrativo ufficiale del farmaco.
+
+
+## Nota sulla cronologia Git
+
+Il repository Git è stato inizializzato il 29/08/2026. Il progetto era già stato
+sviluppato precedentemente senza una cronologia Git, quindi i commit precedenti
+non sono disponibili.
+
+Per correttezza, le date dei commit non sono state modificate artificialmente.
+La cronologia presente rappresenta l'organizzazione tecnica reale delle principali
+componenti del progetto, registrata a partire dalla data di inizializzazione del
+repository.
